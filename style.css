@@ -199,6 +199,10 @@ main {
     .h-p {
         display: none;
     }
+        .main-sec-1-p{
+            font-size: 0.9rem;
+            max-width: 360px;
+        }
 }
 
 /* main sec-1 and responsive end here */
@@ -269,6 +273,7 @@ main {
 .main-2{
     display: flex;
     gap: 40px;
+    margin-top: 150px;
 
 }
 .main2-div-1{
@@ -332,8 +337,44 @@ main {
                 .main2-div-2 {
                     width: 100%;
                 }
+        .div-2-h1{
+            font-size: 1.7rem;
+        }
+        .div-2-li{
+            font-size: 0.9rem;
+            max-width: 300px;
+        }
 }
 /* main-2 responsive end */
+.main-3{
+    width: 90%;
+    border: 1px solid red;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .Latest{
     color: #E95A08;
+}
+.main-3-p{
+    max-width: 780px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #000000;
+    opacity: 50%;
+}
+.main-3-h1{
+    font-weight: bold;
+    font-size: 4.2rem;
+}
+@media screen and (max-width:576px){
+    .main-3-h1{
+        font-size: 1.5rem;
+    }
+    .main-3-p{
+        font-size: 0.8rem;
+        max-width: 360px;
+    }
 }
