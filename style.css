@@ -131,3 +131,29 @@ font-size: 4.5rem;
 }
 
 /* header and header responsive end here */
+
+/* main start here */
+main{
+    width: 90%;
+    margin: 100px auto;
+    border:1px solid black;
+}
+.main-sec-1{
+    width: 100%;
+    border: 1px solid rebeccapurple;
+    text-align: center;
+}
+
+.main-sec-1-p{
+    font-size: 1.4rem;
+        margin-top: 10px;
+        color: #000000;
+        opacity: 50%;
+}
+.main-sec-1-h1{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.our{
+    color: #E95A08;
+}
