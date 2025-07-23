@@ -7,7 +7,11 @@
 :root {
     --grar-color: #8987A1;
 }
-
+body{
+    /* max-width: 1440px;
+    margin: 0 auto; */
+    background-color: #747383;
+}
 /* nav start here */
 nav {
     width: 90%;
@@ -285,9 +289,24 @@ main {
 .main2-div-2{
     display: flex;
     flex-direction: column;
+    width: 50%;
    
 }
 .main2-div-2-child {
     border: 1px solid yellowgreen;
-    /* margin: auto 0; */
+    margin: auto 0;
+}
+.main2-div-1{
+    width: 50%;
+}
+@media screen and (max-width:576px){
+    .main-2{
+        flex-direction: column;
+    }
+        .main2-div-1 {
+            width: 100%;
+        }
+                .main2-div-2 {
+                    width: 100%;
+                }
 }
