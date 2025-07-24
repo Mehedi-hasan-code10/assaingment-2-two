@@ -461,7 +461,7 @@ main {
     color: white;
 }
 .bloom-div-3{
-    height: auto;
+    
     height: 465px;
 }
 
@@ -478,5 +478,47 @@ main {
     font-weight: 700;
     text-align: center;
     margin-top: 10px;
+
+}
+
+@media screen and (max-width:576px){
+    .main-4 {
+            width: 90%;
+            margin: 0 auto;
+            border: 1px solid black;
+    
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+                .bloom-div-3 {
+        
+                    height: 210px;
+                }
+
+         .zabo-h1 {
+             /* max-width: 270px; */
+             font-size: 1.3rem;
+             font-weight: bold;
+    
+         }
+    
+         .zabo-h2 {
+    
+             font-size: 1.6rem;
+             font-weight: 700;
+             text-align: center;
+             margin-top: 10px;
+    
+         }
+
+        .overly {
+        
+            opacity: 60%;
+            
+    
+        }
 
 }
