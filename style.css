@@ -44,9 +44,9 @@
 } */
 /* nav start here */
 nav {
-    /* width: 90%; */
+    width: 90%;
     padding: 0 10px;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -102,8 +102,8 @@ nav {
 
 /* header start here */
 .header-cointainer {
-    /* width: 90%; */
-    max-width: 1440px;
+    width: 90%;
+    /* max-width: 1440px; */
     margin: 0 auto;
     /* border: 1px solid tomato; */
     display: flex;
@@ -193,8 +193,8 @@ nav {
 /* main start here */
 /* main sec-1 start here */
 .main-1 {
-    /* width: 90%; */
-    max-width: 1440px;
+    width: 90%;
+    /* max-width: 1440px; */
     margin: 100px auto;
     /* border: 1px solid black; */
     padding: 0 10px;
@@ -314,7 +314,8 @@ nav {
 }
 
 .main-2 {
-    max-width: 1440px;
+    max-width: 90%;
+    /* max-width: 1440px; */
     display: flex;
     gap: 40px;
     margin: 0 auto;
@@ -423,8 +424,8 @@ nav {
 /* main-2 responsive end */
 /* main 3 start */
 .main-3 {
-    /* width: 90%; */
-    max-width: 1440px;
+    width: 90%;
+    /* max-width: 1440px; */
     /* border: 1px solid red; */
     margin: 50px auto;
     display: flex;
@@ -465,8 +466,8 @@ nav {
 
 /* main 4 start */
 .main-4 {
-    /* width: 90%; */
-    max-width: 1440px;
+    width: 90%;
+    /* max-width: 1440px; */
     margin: 0 auto;
     /* border: 1px solid black; */
     padding: 0 10px;
@@ -801,8 +802,8 @@ input {
 }
 
 .footer-2-sec {
-    /* width: 90%; */
-    max-width: 1440px;
+    width: 90%;
+    /* max-width: 1440px; */
     height: auto;
     /* border: 1px solid black; */
     margin: 20px auto;
