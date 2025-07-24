@@ -325,6 +325,9 @@ main {
     width: 50%;
 }
 @media screen and (max-width:576px){
+    /* .main-2{
+        margin-top: 0px;
+    } */
     .badge-img{
         display: none;
     }
@@ -346,6 +349,7 @@ main {
         }
 }
 /* main-2 responsive end */
+/* main 3 start */
 .main-3{
     width: 90%;
     border: 1px solid red;
@@ -377,4 +381,102 @@ main {
         font-size: 0.8rem;
         max-width: 360px;
     }
+}
+/* main 3 end */
+
+/* main 4 start */
+.main-4{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.main-4-sec-1{
+    border: 1px solid blueviolet;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.main-4-sec-2{
+    flex: 2;
+    border: 1px solid tomato;
+}
+.bloom-img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.zabo-img{
+    width: 100%;
+    border-radius: 10px;
+        height: 100%;
+    
+}
+
+.bloom-div-1,.bloom-div-2,.bloom-div-3{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+}
+.overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    border-radius: 10px;
+    opacity: 40%;
+    height: 100%;
+    width: 100%;
+    
+}
+.content-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    color: white;
+    
+}
+.bloom-h1{
+    /* max-width: 270px; */
+    font-size: 1.3rem;
+    font-weight: bold;
+   
+}
+.bloom-h2{
+    
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 10px;
+        
+}
+.shop-now-a{
+    color: white;
+}
+.bloom-div-3{
+    height: auto;
+    height: 465px;
+}
+
+.zabo-h1 {
+    /* max-width: 270px; */
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.zabo-h2 {
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+
 }
