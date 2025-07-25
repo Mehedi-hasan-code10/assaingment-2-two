@@ -213,6 +213,7 @@ nav {
 
 .main-sec-1 {
     width: 100%;
+    
     /* border: 1px solid rebeccapurple; */
     text-align: center;
 }
@@ -236,6 +237,9 @@ nav {
 }
 
 @media screen and (max-width:576px) {
+    .main-sec-1{
+        padding: 0 10px;
+    }
 
     .main-1{
         margin-top: 50px;
