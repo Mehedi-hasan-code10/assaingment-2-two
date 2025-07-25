@@ -15,6 +15,10 @@
     border: 1px solid black;
 } */
 
+body{
+    background-color: #f5f8ff;
+}
+
 
 
 
@@ -44,7 +48,8 @@
 } */
 /* nav start here */
 nav {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 1152px;
     /* padding: 0 10px; */
     /* max-width: 1440px; */
     height: auto;
@@ -83,6 +88,9 @@ nav {
 
 /* nav responsive start */
 @media screen and (max-width:576px) {
+    nav{
+        padding: 0 10px;
+    }
     .logo-img {
         width: 63px;
         height: 38px;
@@ -102,13 +110,14 @@ nav {
 
 /* header start here */
 .header-cointainer {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 1152px;
     /* max-width: 1440px; */
     margin: 0 auto;
     /* border: 1px solid tomato; */
     display: flex;
     gap: 30px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .header-sec-1 {
@@ -156,7 +165,8 @@ nav {
 
 @media screen and (max-width:576px) {
     .header-cointainer {
-        width: 100%;
+        margin-top: 30px;
+        /* width: 100%; */
         display: flex;
         flex-direction: column;
         flex-direction: column-reverse;
@@ -193,7 +203,8 @@ nav {
 /* main start here */
 /* main sec-1 start here */
 .main-1 {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 1152px;
     /* max-width: 1440px; */
     margin: 100px auto;
     /* border: 1px solid black; */
@@ -225,6 +236,10 @@ nav {
 }
 
 @media screen and (max-width:576px) {
+
+    .main-1{
+        margin-top: 50px;
+    }
     .main-sec-1-h1 {
         font-size: 1.5rem;
         font-weight: bold;
@@ -289,6 +304,7 @@ nav {
 
 @media screen and (max-width:576px) {
     .main-sec-2 {
+        padding: 0 10px;
 
         grid-template-columns: repeat(2, 1fr);
 
@@ -314,7 +330,8 @@ nav {
 }
 
 .main-2 {
-    max-width: 90%;
+    /* max-width: 90%; */
+    max-width: 1152px;
     /* max-width: 1440px; */
     display: flex;
     gap: 40px;
@@ -386,6 +403,7 @@ nav {
         display: flex;
         gap: 40px;
         margin-top: -50px;
+        padding: 0 10px;
 
 
 
@@ -424,10 +442,11 @@ nav {
 /* main-2 responsive end */
 /* main 3 start */
 .main-3 {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 1152px;
     /* max-width: 1440px; */
     /* border: 1px solid red; */
-    margin: 50px auto;
+    margin: 70px auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -452,6 +471,9 @@ nav {
 }
 
 @media screen and (max-width:576px) {
+    .main-3{
+        margin-top: 120px;
+    }
     .main-3-h1 {
         font-size: 1.5rem;
     }
@@ -466,7 +488,8 @@ nav {
 
 /* main 4 start */
 .main-4 {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 1152px;
     /* max-width: 1440px; */
     margin: 0 auto;
     /* border: 1px solid black; */
@@ -590,7 +613,8 @@ nav {
 
 @media screen and (max-width:576px) {
     .main-4 {
-        width: 90%;
+        /* width: 90%; */
+        padding: 0 10px;
         margin: 0 auto;
         /* border: 1px solid black; */
 
@@ -802,7 +826,8 @@ input {
 }
 
 .footer-2-sec {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 1152px;
     /* max-width: 1440px; */
     height: auto;
     /* border: 1px solid black; */
@@ -858,6 +883,7 @@ input {
 
 @media screen and (max-width:576px) {
     .footer-2-sec {
+        padding: 0 10px;
 
         display: flex;
         flex-direction: column;
